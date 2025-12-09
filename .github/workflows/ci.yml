@@ -37,3 +37,10 @@ jobs:
           -scheme CIRun \
           -destination "platform=iOS Simulator,name=iPhone 15" \
           clean test | xcpretty
+          
+    - name: Run Unit Tests
+      run: |
+        xcodebuild \
+          -scheme CIUnitTests \
+          -destination "platform=iOS Simulator,name=iPhone 15" \
+          test
