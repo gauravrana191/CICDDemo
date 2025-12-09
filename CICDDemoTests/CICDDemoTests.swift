@@ -19,12 +19,8 @@ final class CICDDemoTests: XCTestCase {
     }
 
     func testExample() throws {
-        XCTAssertNotNil(value)
+        XCTAssertNil(value)
     }
-    
-//    func test2Example() throws {
-//        XCTAssertNil(value)
-//    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
