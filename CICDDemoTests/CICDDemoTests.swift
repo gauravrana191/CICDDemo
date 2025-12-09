@@ -19,7 +19,7 @@ final class CICDDemoTests: XCTestCase {
     }
 
     func testExample() throws {
-        XCTAssertNil(value)
+        XCTAssertNotNil(value)
     }
 
     func testPerformanceExample() throws {
